@@ -1,0 +1,140 @@
+.home {
+  display: block;
+
+    .homeContent {
+      min-height: $minHeight;
+      height:100%;
+      width: 100%;
+      position: relative;
+      display: flex;
+      overflow: hidden;
+  
+      // &:after {
+      //   content: '';
+      //   position: absolute;
+      //   height: 100%;
+      //   width: inherit;
+      //   background: url('../../media/bigGates.jpg') no-repeat center/cover;
+      //   z-index: -1;
+      //   filter: brightness(30%);
+      // }
+  
+   
+
+      .content {
+        // border: 1px solid black;
+        position: relative;
+        font-family: $font-4;
+  
+        h1 {
+          padding-top: 5%;
+          font-size: 5rem;
+          font-family: $font-4;
+          color: $color-1;
+          text-transform: uppercase;
+          // border:1px solid black;
+          text-align: center;
+       
+        }
+        h2 {
+          font-size: 2.5rem;
+          padding: 1.5rem 0 2rem;
+          color: $color-3;
+          
+        }
+
+        .titleProfession {
+          text-align: center;
+          
+                }
+
+#textIntro {
+  text-align: justify;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  font-weight: 800;
+  // border: 1px solid black;
+  
+}
+#textOutro {
+  margin-top: 2rem;
+  height:50px;
+  font-weight: 800;
+  width: 80%;
+  margin:auto;
+}
+
+
+        #linkIllustrationWebSite {
+          display: flex;
+          justify-content: center;
+          padding: 2rem 0;
+        }
+        .pdf {
+          a {
+            font-size: 1.5rem;
+            background: $color-3;
+            padding: 1rem 2rem;
+            border-radius: $borderRadius;
+            // box-shadow: 0 5px 1px rgb(15, 15, 15);
+            transition: 0.2s ease;
+  
+            &:hover {
+              background: $color-4;
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+  .footer {
+    position: relative;
+    // border: 1px solid black;
+    bottom:0;
+    width:100%;
+  }
+
+  .signature {
+font-family: $font-4;
+color: $color-4
+    
+  }
+
+
+
+  @media screen and (max-width: 850px){
+    .homeContent {
+      margin: 0 ;
+      display: block !important;
+
+
+      .content {
+        position: relative;
+        top:10%;
+      }
+    }
+  }
+  @media screen and (max-width:700px){
+    .homeContent {
+      // &:after {
+      // background: url('../../media/bigGates.jpg') no-repeat 60% 50%/cover !important;
+      // }
+      h1 {
+        font-size: 3rem  !important;
+      }
+      h2 {
+        font-size: 1.8rem !important;
+      }
+    }
+  }
+
+  @media screen and (max-width:480px){
+    .homeContent {
+      h1 {
+        font-size: 2rem;
+      }
+    }}
