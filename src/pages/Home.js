@@ -25,7 +25,7 @@ const Home = () => {
           >
             vincentlandaisillustration.fr
           </a>
-          <p id="textOutro">Sinon bonne continuation de visite ! </p>
+          <p id="textOutro">Bonne visite ! </p>
 
           {/* <div className="pdf">
             <a href="./media/cv.pdf" target="_blank">

@@ -6,17 +6,14 @@ const Footer = () => {
     <div className="footerbar">
       <div className="navigationFooterbar">
         <NavLink exact to="/" activeClassName="navActive">
-          <i className="fas fa-home"></i>
           <span>Accueil</span>
         </NavLink>
 
         <NavLink exact to="/contact" activeClassName="navActive">
-          <i className="fas fa-address-book"></i>
           <span>Contact</span>
         </NavLink>
 
         <NavLink exact to="/contact" activeClassName="navActive">
-          <i className="fas fa-address-book"></i>
           <span>Politique de confidentialité</span>
         </NavLink>
       </div>

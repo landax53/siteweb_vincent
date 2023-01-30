@@ -1,6 +1,6 @@
 .contactContent {
-    background: $color-3;
-    border-radius: $borderRadius;
+    // background: $color-3;
+    // border-radius: $borderRadius;
     width: 100%;
     overflow: hidden;
     display: grid;
@@ -15,7 +15,7 @@
       grid-area: 1;
       width: 100%;
       position: relative;
-      background: $color-1;
+      // background: $color-1;
       height: 340px;
   
       &:before {
@@ -42,8 +42,8 @@
       margin: 0 auto;
       padding: 1rem 3rem;
       z-index: 2;
-      border-radius: $borderRadius;
-      box-shadow: 0 3px 10px #333;
+      // border-radius: $borderRadius;
+      // box-shadow: 0 3px 10px #333;
       width: 50%;
       min-width: 440px;
       min-height: 200px;

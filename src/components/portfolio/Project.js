@@ -13,7 +13,8 @@ class Project extends Component {
   };
 
   render() {
-    let { name, languagesIcons, source, info, picture } = this.props.item;
+    let { name, description, languagesIcons, source, info, picture } =
+      this.props.item;
 
     return (
       <div className="project">
@@ -24,6 +25,9 @@ class Project extends Component {
           ))}
         </div>
         <h3>{name}</h3>
+        <div className="description">
+          <h5>{description}</h5>
+        </div>
         <img src={picture} alt="" onClick={this.handleInfo} />
         <span className="infos" onClick={this.handleInfo}>
           <i className="fas fa-plus-circle"></i>

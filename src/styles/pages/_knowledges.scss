@@ -10,19 +10,33 @@
       grid-template-areas: 
         "L E E"
         "O O H";
+       
+
   
       .languagesFrameworks, .experience, .otherSkills, .hobbies {
-        // background: $color-2;
-        // border-radius: $borderRadius;
+        background: $white;
         padding: .8rem;
       }
+
+      .lightTheme {
+        background: $white;
+        color:black;
+      }
+
+      .darkTheme {
+        background: $black;
+        color:$white;
+      }
+
       h3 {
         font-size: 1.4rem;
         margin-bottom: 1rem;
         font-family: $font-2;
         color: $color-2;
         text-transform: uppercase;
-      }
+        pointer-events: none;
+        
+            }
   
       .languagesFrameworks {
         grid-area: L;
@@ -130,6 +144,8 @@
           text-align: justify;
           padding: 0 1rem;
         }
+
+        
         .exp-1 {
           grid-area: 2;
         }
@@ -137,9 +153,11 @@
           grid-area: 3;
         }
       }
+  
       .otherSkills {
         grid-area: O;
         margin-right: 0.5rem;
+      
   
         .list {
           display: flex;
@@ -154,22 +172,30 @@
   
             i {
               color: $color-2;
+              margin-right: 0.7rem;
             }
+
+         
           }
         }
       }
       .hobbies {
+    
+
+       
         grid-area: H;
         padding-left: 1.5rem;
   
         ul {
           height: 80%;
           display: grid;
-  
+
+            
           li {
-            i {
+                    i {
               position: absolute;
               color: $color-3;
+              
             }
             span {
               position: absolute;
@@ -191,6 +217,14 @@
       p {
         font-size: .8rem;
       }
+      .experience {
+      ul {
+        font-size: .7rem !important;
+        margin-left: 1.5rem;
+        margin-top:0.3rem;
+        color:$color-3
+      }}
+      
       .otherSkills, .hobbies {
         font-size: .8rem;
       }

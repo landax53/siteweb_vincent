@@ -8,7 +8,7 @@ const PortFolio = () => {
     <div className="portfolio">
       <Navigation />
       <ProjectList />
-      <MapContainer
+      {/* <MapContainer
         id="map"
         center={[51.505, -0.09]}
         zoom={13}
@@ -23,7 +23,7 @@ const PortFolio = () => {
             A pretty CSS3 popup. <br /> Easily customizable.
           </Popup>
         </Marker>
-      </MapContainer>
+      </MapContainer> */}
     </div>
   );
 };

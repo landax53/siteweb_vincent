@@ -1,9 +1,27 @@
-import React from "react";
+import React, { useState } from "react";
 
 const OtherSkills = () => {
+  //   let textContainer = document.getElementById("text-Container");
+  //   const [theme, setTheme] = useState("lightTheme");
+  //   const toggleTheme = (e) => {
+  //     if (theme === "lightTheme") {
+  //       setTheme("darkTheme");
+  //       //   textContainer.addEventListener("mouseover", (event) => {
+  //       //     event.stopPropagation();
+  //       //   });
+  //     } else {
+  //       setTheme("lightTheme");
+  //       //   textContainer.addEventListener("mouseover", (event) => {
+  //       //     event.stopPropagation();
+  //       //   });
+  //     }
+  //   };
+
   return (
-    <div className="otherskills">
+    // <div className={`otherSkills ${theme}`} onMouseOver={toggleTheme}>
+    <div className="otherSkills">
       <h3>Autres compétences</h3>
+
       <div className="list">
         <ul>
           <li>

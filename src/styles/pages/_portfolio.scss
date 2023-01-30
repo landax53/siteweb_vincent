@@ -12,7 +12,7 @@
   
     .radioDisplay {
       grid-area: 1;
-      border-radius: $borderRadius;
+      // border-radius: $borderRadius;
       display: flex;
       width: 100%;
       padding: 1rem 2rem;
@@ -83,57 +83,66 @@
       justify-content: space-around;
   
       .project {
-        background: $color-2;
-        border-radius: $borderRadius;
+        background: $white;
+        // border-radius: $borderRadius;
         margin: 0.5rem 0 0 0;
         text-align: center;
         width: 32%;
         max-height: 50%;
         padding: .3rem;
-        box-shadow: $shadow;
+        // box-shadow: $shadow;
         display: grid;
-        grid-template-rows: 15% 15% 55% 15%;
+        grid-template-rows: 15% 15% 30% 25% 15%;
         grid-template-areas: 
           "1"
           "2"
           "3"
-          "4";
+          "4"
+          "5";
       }
       .icons {
         grid-area: 1;
-        display: flex;
-        justify-content: center;
-        @include verticalCenter;
+            @include verticalCenter;
   
         i {
           font-size: 1.4rem;
           padding: 0 .35rem;
-          color: $color-5;
+          // color: $color-5;
           text-shadow: 0 0px 1px $color-1;
         }
       }
       h3 {
         grid-area: 2;
         font-family: $font-2;
-        font-size: 1.65rem;
+        font-size: 1.35rem;
         @include verticalCenter;
         justify-content: left;
   
       }
+
+
       img {
         grid-area: 3;
         object-fit: cover;
         margin: 0 auto;
         width: 100%;
-        height: 55%;
-        box-shadow: 0 2px 6px #333;
+        height: 100%;
+        // box-shadow: 0 2px 6px #333;
         border-radius: 4px;
         cursor: pointer;
         @include verticalCenter;
       }
+
+      .description {
+        grid-area:4;
+        // height:80%;
+          transition: .2s;
+        @include verticalCenter;
+      }
+
       .infos {
-        grid-area: 4;
-        color: $color-4;
+        grid-area: 5;
+        // color: $color-4;
         cursor: pointer;
         font-size: 1.5rem;
         @include verticalCenter;
@@ -160,7 +169,7 @@
           margin: 0 auto;
           color: $color-5;
           background: $color-1;
-          border-radius: $borderRadius;
+          // border-radius: $borderRadius;
           padding: 2rem;
           box-shadow: 0 10px 10px #333;
           animation: popup .6s ease forwards;
@@ -205,11 +214,22 @@
       }
     }
   }
+  @media (max-width: 950px) {
+    .portfolioContent {
+    
+      .project {
+  h3 {
+    font-size: 1.15rem;
+  }}}}
+
   @media (max-width: 650px) and (min-width: 521px){
     .portfolioContent {
+    
       .project {
         width: 49% !important;
-  
+        h3 {
+          font-size: 1.05rem;
+        }
         i {
           font-size: 1rem;
         }

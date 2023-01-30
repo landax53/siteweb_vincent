@@ -20,17 +20,17 @@ const Experience = () => {
         <h4>Etudiant développeur front-end - Digital Campus</h4>
         <h4>2022-2023</h4>
         <p>
-          <ul>
-            Suivi des cours en ligne "développeur front-end" avec la réalisation
-            de nombreux projets pratiques
-            <li>
-              - Environnement MERN : Mongo Express React Node <br />- Création
-              d'une boutique en ligne{" "}
-            </li>
-            <li>- Jeux</li>
-            <li>- ...</li>
-          </ul>
+          Suivi des cours en ligne "développeur front-end" avec la réalisation
+          de nombreux projets pratiques
         </p>
+        <ul>
+          <li>
+            - Environnement MERN : Mongo Express React Node <br />- Création
+            d'une boutique en ligne{" "}
+          </li>
+          <li>- Jeux</li>
+          <li>- ...</li>
+        </ul>
       </div>
     </div>
   );

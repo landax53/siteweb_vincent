@@ -1,13 +1,17 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import idPhoto from "../media/moi_low.jpg";
 
 const Navigation = () => {
   return (
     <div className="sidebar">
       <div className="id">
         <div className="idContent">
-          <img src="./media/moi_low.jpg" alt="profil-pic" />
-          <h3>Vincent LANDAIS</h3>
+          <NavLink exact to="/" activeClassName="navActive">
+            <img src={idPhoto} height="80px" alt="profil-pic" />
+
+            <h3>Vincent LANDAIS</h3>
+          </NavLink>
         </div>
       </div>
       <div className="navigation">
@@ -48,7 +52,7 @@ const Navigation = () => {
         <ul>
           <li>
             <a
-              href="https://www.google.com"
+              href="https://www.linkedin.com/in/vincent-landais"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -57,14 +61,14 @@ const Navigation = () => {
           </li>
           <li>
             <a
-              href="https://www.google.com"
+              href="https://github.com/landax53"
               target="_blank"
               rel="noopener noreferrer"
             >
               <i className="fab fa-github"></i>
             </a>
           </li>
-          <li>
+          {/* <li>
             <a
               href="https://www.google.com"
               target="_blank"
@@ -72,8 +76,8 @@ const Navigation = () => {
             >
               <i className="fab fa-twitter"></i>
             </a>
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <a
               href="https://www.google.com"
               target="_blank"
@@ -81,7 +85,7 @@ const Navigation = () => {
             >
               <i className="fab fa-codepen"></i>
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>
