@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/siteweb_vincent/static/js/main.ab80267d.js",
-    "static/media/moi_low.jpg": "/siteweb_vincent/static/media/moi_low.731d15ef69b7c00c5375.jpg",
-    "static/media/zenvoyage.JPG": "/siteweb_vincent/static/media/zenvoyage.ae0df33199c88b15c6d8.JPG",
-    "static/media/charlescantin.JPG": "/siteweb_vincent/static/media/charlescantin.1bb2556c84d8a8bb086b.JPG",
-    "index.html": "/siteweb_vincent/index.html",
-    "main.ab80267d.js.map": "/siteweb_vincent/static/js/main.ab80267d.js.map"
+    "main.js": "/landax53/siteweb_vincent/static/js/main.b7917ba7.js",
+    "static/media/moi_low.jpg": "/landax53/siteweb_vincent/static/media/moi_low.731d15ef69b7c00c5375.jpg",
+    "static/media/zenvoyage.JPG": "/landax53/siteweb_vincent/static/media/zenvoyage.ae0df33199c88b15c6d8.JPG",
+    "static/media/charlescantin.JPG": "/landax53/siteweb_vincent/static/media/charlescantin.1bb2556c84d8a8bb086b.JPG",
+    "index.html": "/landax53/siteweb_vincent/index.html",
+    "main.b7917ba7.js.map": "/landax53/siteweb_vincent/static/js/main.b7917ba7.js.map"
   },
   "entrypoints": [
-    "static/js/main.ab80267d.js"
+    "static/js/main.b7917ba7.js"
   ]
 }
